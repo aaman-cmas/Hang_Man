@@ -530,33 +530,77 @@
 
   </section>
 
-  <section id="output">
+ <section id="output">
 
-    <div class="section-title">
-      <h2>Game Output</h2>
-      <p>ASCII-art output of the Hangman Game</p>
-    </div>
+  <div class="section-title">
+    <h2>Game Output</h2>
+    <p>Output states of the Hangman Game</p>
+  </div>
+
+  <div class="card-grid">
+
+    <!-- First Picture -->
 
     <div class="card">
 
-<pre>
+      <h3>Initial Game State</h3>
 
-___________________
-         |
-         O
-        / \
-         |
-        / \
-     =========
+      <img src="1st Picture.png" alt="Initial Game State" class="gallery-img">
 
-Life: 3
-Guess the hidden month
+      <br><br>
 
-</pre>
+      <p>
+        In this state, the game starts with
+        <span class="highlight">3 lives</span>.
+        The hidden month name is displayed using X symbols,
+        and the player has to guess letters one by one.
+      </p>
 
     </div>
 
-  </section>
+    <!-- Second Picture -->
+
+    <div class="card">
+
+      <h3>Winning State</h3>
+
+      <img src="2nd Picture.png" alt="Winning State" class="gallery-img">
+
+      <br><br>
+
+      <p>
+        In this state, the player successfully guesses
+        the correct letters and reveals the hidden month.
+        The game displays the message
+        <span class="highlight">"You are free!"</span>
+        and the gamer wins the game.
+      </p>
+
+    </div>
+
+    <!-- Third Picture -->
+
+    <div class="card">
+
+      <h3>Losing State</h3>
+
+      <img src="3rd Picture.png" alt="Losing State" class="gallery-img">
+
+      <br><br>
+
+      <p>
+        In this state, the player fails to guess
+        the correct letters within the available lives.
+        The game displays the message
+        <span class="highlight">"You are hanged!"</span>
+        and the hangman appears with the rope.
+      </p>
+
+    </div>
+
+  </div>
+
+</section>
 
   <section id="future">
 
